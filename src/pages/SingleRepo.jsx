@@ -9,7 +9,7 @@ const SingleRepo = () => {
   useEffect(() => {
     (async () => {
       try {
-        const repoUrl = "https://api.github.com/repos/abiolayoung";
+        const repoUrl = "https://api.github.com/repos/MeenaDrip";
         const repoEndPoint = `${repoUrl}/${repoName}`;
 
         const response = await fetch(repoEndPoint);
